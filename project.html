@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<title>My Web Page</title>
+<style>
+	.red{
+		background-color: red;
+	}
+
+	.blue{
+		background-color: blue;
+	}
+	.red{border-radius: 70%;}
+	.blue{border-radius: 70%;}
+</style>
+
+
+</head>
+<body>
+
+<button class="red"
+        type="button" onclick="changeRed()">
+    Change to Red
+</button>
+<button class="blue"
+        type="button" onclick="changeBlue()">
+    Change to Blue
+</button>
+
+<script>
+   
+    function changeRed() {
+    	document.body.style.backgroundColor="red";   
+    }
+    function changeBlue() {
+    	document.body.style.backgroundColor="blue";   
+    }
+</script>
+</body>
+</html>
